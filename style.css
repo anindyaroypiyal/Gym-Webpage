@@ -3,6 +3,7 @@ body{
     padding: 0px;
     background: url(../images/bg.jpg);
     height: 1100px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .left{
@@ -55,4 +56,19 @@ body{
 .navbar li a:hover, .navbar li a:active{
     color: grey;
     text-decoration: underline;
+}
+
+.btn{
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.btn:hover{
+    background: #45a049;
 }
