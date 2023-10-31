@@ -13,6 +13,16 @@ body{
     top: 20px;
     left: 20px;
 }
+
+.left img{
+    width: 80px;
+    filter: invert();
+    border-radius: 50%;
+    
+}
+.left div{
+    text-align: center;
+}
 .mid{
     display: block;
     border: 2px solid green;
@@ -27,4 +37,22 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 10px 20px;
+}
+.navbar li a:hover, .navbar li a:active{
+    color: grey;
+    text-decoration: underline;
 }
