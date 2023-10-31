@@ -4,3 +4,27 @@ body{
     background: url(../images/bg.jpg);
     height: 1100px;
 }
+
+.left{
+    display: inline-block;
+    border: 2px solid blue;
+    color: wheat;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.mid{
+    display: block;
+    border: 2px solid green;
+    color: wheat;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    border: 2px solid red;
+    color: wheat;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
