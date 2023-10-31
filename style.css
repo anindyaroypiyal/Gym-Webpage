@@ -1,14 +1,14 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url(../images/bg.jpg);
-    height: 1100px;
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    height: 1000px;
     font-family: 'Kanit', sans-serif;
 }
 
 .left{
     display: inline-block;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     color: wheat;
     position: absolute;
     top: 20px;
@@ -23,17 +23,19 @@ body{
 }
 .left div{
     text-align: center;
+    font-size: 15px;
+    line-height: 20px;
 }
 .mid{
     display: block;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     color: wheat;
     width: 33%;
     margin: 20px auto;
 }
 .right{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: wheat;
     position: absolute;
     top: 20px;
@@ -42,6 +44,8 @@ body{
 
 .navbar{
     display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
 .navbar li{
@@ -50,7 +54,7 @@ body{
 }
 .navbar li a{
     text-decoration: none;
-    color: wheat;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
 }
 .navbar li a:hover, .navbar li a:active{
@@ -71,4 +75,33 @@ body{
 }
 .btn:hover{
     background: #45a049;
+}
+
+.container{
+    display: block;
+    border: 2px solid yellow;
+    color: wheat;
+    width: 33%;
+    margin: 100px auto;
+    text-align: center;
+    padding: 100px 86px;
+    border-radius: 17px;
+    background: rgba(0,0,0,0.5);
+}
+
+.container h1{
+    margin-bottom: 40px;
+}
+
+.form-group input{
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+}
+
+.form-group .btn{
+    width: 30%
 }
